@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.btn-active {
+    /* Apply gradient first, then image */
+    background-image: url('/images/icon-check.svg'),
+        linear-gradient(to right, hsl(192, 100%, 67%), hsl(280, 87%, 65%));
+
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-position: center; /* Center the image */
+    border: none;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: hsl(233, 14%, 35%);
+}
+
+
+
+
+
