@@ -114,7 +114,7 @@ function createSpan(classes, taskText) {
     const span = document.createElement('span');
     span.className = classes;
 
-    const roundBtn = createRoundBtn('mr-4 p-3 rounded-full bg-transparent border-2 border-gray-600 complete-task-btn', taskText);
+    const roundBtn = createRoundBtn('mr-4 p-2 sm:p-3 rounded-full bg-transparent border-2 border-gray-600 complete-task-btn', taskText);
     span.appendChild(roundBtn);
 
     const innerSpan = document.createElement('span');
